@@ -1,0 +1,35 @@
+{
+  "comment": "Desarrollador full-stack que ama front-end",
+  "urls": [
+    {
+      "name": "sobre",
+      "url": "ianramosc.github.io",
+      "prefix": "https://"
+    },
+    {
+      "name": "blog",
+      "url": "ianramosc.github.io/blog",
+      "prefix": "https://"
+    },
+    {
+      "name": "linkedin",
+      "url": "linkedin.com/in/ianramosc",
+      "prefix": "https://"
+    },
+    {
+      "name": "github",
+      "url": "github.com/ianramosc",
+      "prefix": "https://"
+    },
+    {
+      "name": "codepen",
+      "url": "codepen.com/ianramosc",
+      "prefix": "http://"
+    },
+    {
+      "name": "contacto",
+      "url": "ianramosc@gmail.com",
+      "prefix": "mailto:"
+    }
+  ]
+}
