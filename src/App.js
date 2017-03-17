@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import LangManager from './translation/LangManager';
+import CodeWrapper from './components/CodeWrapper';
+import Comment from './components/Comment';
+import Selector from './components/Selector';
+import PropertyList from './components/PropertyList';
 
 import './global-styles';
 
 class App extends Component {
   constructor() {
     super();
-    
+
     this.state = {
       content: {
         comment: "",
@@ -27,8 +31,14 @@ class App extends Component {
     let { comment, urls } = this.state.content;
 
     return (
-      <div className="App">
-      </div>
+      <CodeWrapper>
+        <div>
+          <Comment>{comment}</Comment>
+          <Selector>#ian-website</Selector> { '{' }
+            <PropertyList urls={urls} />
+          {'}'}
+        </div>
+      </CodeWrapper>
     );
   }
 }

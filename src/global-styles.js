@@ -2,13 +2,14 @@ import { injectGlobal } from 'styled-components';
 
 injectGlobal`
   * {
+    font-size: 18px;
     box-sizing: border-box;
   }
 
   html,
   body {
-    height: 100%;
     width: 100%;
+    height: 100%;
     margin: 0px;
   }
 
@@ -17,5 +18,9 @@ injectGlobal`
     background-color: #10171E;
     font-family: 'Ubuntu Mono', 'Courier';
     color: #FFF;
+  }
+
+  #root {
+    height: 100%;
   }
 `;
