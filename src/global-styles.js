@@ -2,7 +2,7 @@ import { injectGlobal } from 'styled-components';
 
 injectGlobal`
   * {
-    font-size: 18px;
+    font-size: 13px;
     box-sizing: border-box;
   }
 
@@ -14,7 +14,7 @@ injectGlobal`
   }
 
   body {
-    padding: 10px;
+    padding: 5px;
     background-color: #10171E;
     font-family: 'Ubuntu Mono', 'Courier';
     color: #FFF;
@@ -22,5 +22,11 @@ injectGlobal`
 
   #root {
     height: 100%;
+  }
+
+  @media screen and (min-width: 460px) {
+    * {
+      font-size: 16px;
+    }
   }
 `;
